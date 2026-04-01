@@ -8,6 +8,7 @@ namespace ResturantAPI.Models
 {
     public class ResturantDbContext:DbContext
     {
+    //EFcore
         public ResturantDbContext(DbContextOptions<ResturantDbContext> options) 
             : base(options)
         {
